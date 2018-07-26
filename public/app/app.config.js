@@ -25,6 +25,7 @@
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
     };
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/inicio');
+    state($stateProvider, 'inicio');
   }
 })();

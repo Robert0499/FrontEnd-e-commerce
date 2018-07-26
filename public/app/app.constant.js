@@ -15,7 +15,4 @@ angular.module('ecommerce').constant('state', (stateprovider, name) => {
     }
   });
 });
-/*angular
-  .module('ecommerce')
-  .constant('host', );
-*/
+angular.module('ecommerce').constant('host');
