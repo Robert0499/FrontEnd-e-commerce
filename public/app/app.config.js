@@ -27,5 +27,6 @@
 
     $urlRouterProvider.otherwise('/inicio');
     state($stateProvider, 'inicio');
+    state($stateProvider, 'graficas');
   }
 })();
