@@ -15,4 +15,6 @@ angular.module('ecommerce').constant('state', (stateprovider, name) => {
     }
   });
 });
-angular.module('ecommerce').constant('host');
+angular
+  .module('ecommerce')
+  .constant('host', 'http://10.72.138.178/api-comprameesta/public/');
